@@ -1,0 +1,78 @@
+div#nivel1 > div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: -2px;
+}
+
+div#nivel2 > div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: -2px;
+}
+
+div#nivel3 > div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: -2px;
+}
+
+div#nivel4 > div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: -2px;
+}
+
+div#nivel5 > div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: -2px;
+}
+
+.ponta {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.borda {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid white;
+    margin: -2px;
+}
+
+.linha1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(58, 120, 252);
+    border: 1px solid white;
+}
+
+.linha2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(66, 167, 91);
+    border: 1px solid white;
+}
+
+.linha3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(229, 255, 0);
+    border: 1px solid white;
+}
+
+.ponta:hover{
+    background-color: black;
+}
+
+
+
+
