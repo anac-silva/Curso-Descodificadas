@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadro com Flor</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f8ff;
+        }
+
+        .quadro {
+            height: 400px;
+            width: 400px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .borda1, .borda2, .borda3, .borda4, .borda5 {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        .borda1 {
+            border: 10px solid #20023d;
+            box-sizing: border-box;
+        }
+
+        .borda2 {
+            border: 10px solid #450185;
+            box-sizing: border-box;
+            top: -15px;
+            left: -15px;
+            height: calc(100% + 30px);
+            width: calc(100% + 30px);
+        }
+
+        .borda3 {
+            border: 20px solid #167fc5;
+            box-sizing: border-box;
+            top: -35px;
+            left: -35px;
+            height: calc(100% + 70px);
+            width: calc(100% + 70px);
+        }
+
+        .borda4 {
+            border: 15px solid #5407ad;
+            box-sizing: border-box;
+            top: -35px;
+            left: -35px;
+            height: calc(100% + 70px);
+            width: calc(100% + 70px);
+        }
+
+        .borda5 {
+            border: 10px solid #10cfff;
+            box-sizing: border-box;
+            top: -35px;
+            left: -35px;
+            height: calc(100% + 70px);
+            width: calc(100% + 70px);
+        }
+
+        .conteudo img {
+
+
+            align-items: center;
+        }
+
+        .conteudo > figcaption {
+            position: absolute;
+            top: 160px;
+            right: 80px;
+            font-size: 40px;
+            color: rgb(221, 189, 9);
+            text-shadow: 0px 0px 5px black;
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    <div class="quadro">
+        <div class="borda1"></div>
+        <div class="borda2"></div>
+        <div class="borda3"></div>
+        <div class="borda4"></div>
+        <div class="borda5"></div>
+        <div class="conteudo">
+            <figcaption>Descodificadas</figcaption>
+            <img src="400.jpg" alt="Imagem de uma Flor">
+        </div>
+    </div>
+</body>
+</html>
